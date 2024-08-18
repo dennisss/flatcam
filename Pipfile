@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyqt5 = ">=5.12.1"
+numpy = "==1.19.5"
+matplotlib = ">=3.1"
+cycler = ">=0.10"
+python-dateutil = ">=2.1"
+kiwisolver = ">=1.1"
+six = "*"
+dill = "*"
+rtree = "*"
+pyopengl = "*"
+vispy = "==0.6.6"
+ortools = ">=7.0"
+"svg.path" = ">=4.0"
+simplejson = "*"
+shapely = ">=1.7.0"
+freetype-py = "*"
+fonttools = "*"
+rasterio = "*"
+lxml = "*"
+ezdxf = "*"
+qrcode = ">=6.1"
+reportlab = ">=3.5"
+svglib = "*"
+#gdal = "*"
+pyserial = ">=3.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8.18"

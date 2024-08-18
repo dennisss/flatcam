@@ -4,7 +4,7 @@
 # Usage: pip3 install -r requirements.txt
 
 pyqt5>=5.12.1
-numpy>=1.16
+numpy==1.16
 matplotlib>=3.1
 cycler>=0.10
 python-dateutil>=2.1
@@ -14,7 +14,7 @@ setuptools
 dill
 rtree
 pyopengl
-vispy
+vispy==0.6.6
 ortools>=7.0
 svg.path>=4.0
 simplejson
